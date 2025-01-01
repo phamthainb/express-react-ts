@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "dev-debug": "nodemon --watch src --exec 'node --inspect -r ts-node/register src/index.ts'",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.1",
+    "@types/pg": "^8.11.10",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typeorm-ts-node-commonjs": "^0.3.20",
+    "typescript": "^5.7.2"
+  }
+}

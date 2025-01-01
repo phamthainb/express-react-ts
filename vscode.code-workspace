@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": "./backend",
+      "name": "BACKEND🔥"
+    },
+    {
+      "path": "./frontend",
+      "name": "FRONTEND🌎"
+    },
+    {
+      "path": ".",
+      "name": "ROOT🇻🇳"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "backend": true,
+      "frontend": true,
+      "contract": true,
+      "**/node_modules": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit",
+      "prettier": "explicit"
+    },
+    // auto format on save
+    "editor.formatOnSave": true
+  }
+}
